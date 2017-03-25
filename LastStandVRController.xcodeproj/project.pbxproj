@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */; };
+		A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BD81E873B3C00CF868E /* ViewController.swift */; };
+		A5EB3BDC1E873B3C00CF868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDA1E873B3C00CF868E /* Main.storyboard */; };
+		A5EB3BDE1E873B3C00CF868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDD1E873B3C00CF868E /* Assets.xcassets */; };
+		A5EB3BE11E873B3C00CF868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */; };
+		A5EB3BEC1E873B3C00CF868E /* LastStandVRControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BEB1E873B3C00CF868E /* LastStandVRControllerTests.swift */; };
+		A5EB3BF71E873B3C00CF868E /* LastStandVRControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5EB3BE81E873B3C00CF868E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5EB3BCB1E873B3C00CF868E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EB3BD21E873B3C00CF868E;
+			remoteInfo = LastStandVRController;
+		};
+		A5EB3BF31E873B3C00CF868E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5EB3BCB1E873B3C00CF868E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EB3BD21E873B3C00CF868E;
+			remoteInfo = LastStandVRController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5EB3BD31E873B3C00CF868E /* LastStandVRController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastStandVRController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5EB3BD81E873B3C00CF868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5EB3BDB1E873B3C00CF868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5EB3BDD1E873B3C00CF868E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5EB3BE01E873B3C00CF868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5EB3BE21E873B3C00CF868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EB3BE71E873B3C00CF868E /* LastStandVRControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastStandVRControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EB3BEB1E873B3C00CF868E /* LastStandVRControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStandVRControllerTests.swift; sourceTree = "<group>"; };
+		A5EB3BED1E873B3C00CF868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EB3BF21E873B3C00CF868E /* LastStandVRControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastStandVRControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStandVRControllerUITests.swift; sourceTree = "<group>"; };
+		A5EB3BF81E873B3C00CF868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EB3BD01E873B3C00CF868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB3BE41E873B3C00CF868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB3BEF1E873B3C00CF868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5EB3BCA1E873B3C00CF868E = {
+			isa = PBXGroup;
+			children = (
+				A5EB3BD51E873B3C00CF868E /* LastStandVRController */,
+				A5EB3BEA1E873B3C00CF868E /* LastStandVRControllerTests */,
+				A5EB3BF51E873B3C00CF868E /* LastStandVRControllerUITests */,
+				A5EB3BD41E873B3C00CF868E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EB3BD41E873B3C00CF868E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB3BD31E873B3C00CF868E /* LastStandVRController.app */,
+				A5EB3BE71E873B3C00CF868E /* LastStandVRControllerTests.xctest */,
+				A5EB3BF21E873B3C00CF868E /* LastStandVRControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EB3BD51E873B3C00CF868E /* LastStandVRController */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */,
+				A5EB3BD81E873B3C00CF868E /* ViewController.swift */,
+				A5EB3BDA1E873B3C00CF868E /* Main.storyboard */,
+				A5EB3BDD1E873B3C00CF868E /* Assets.xcassets */,
+				A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */,
+				A5EB3BE21E873B3C00CF868E /* Info.plist */,
+			);
+			path = LastStandVRController;
+			sourceTree = "<group>";
+		};
+		A5EB3BEA1E873B3C00CF868E /* LastStandVRControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB3BEB1E873B3C00CF868E /* LastStandVRControllerTests.swift */,
+				A5EB3BED1E873B3C00CF868E /* Info.plist */,
+			);
+			path = LastStandVRControllerTests;
+			sourceTree = "<group>";
+		};
+		A5EB3BF51E873B3C00CF868E /* LastStandVRControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */,
+				A5EB3BF81E873B3C00CF868E /* Info.plist */,
+			);
+			path = LastStandVRControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EB3BD21E873B3C00CF868E /* LastStandVRController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EB3BFB1E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRController" */;
+			buildPhases = (
+				A5EB3BCF1E873B3C00CF868E /* Sources */,
+				A5EB3BD01E873B3C00CF868E /* Frameworks */,
+				A5EB3BD11E873B3C00CF868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LastStandVRController;
+			productName = LastStandVRController;
+			productReference = A5EB3BD31E873B3C00CF868E /* LastStandVRController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5EB3BE61E873B3C00CF868E /* LastStandVRControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EB3BFE1E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRControllerTests" */;
+			buildPhases = (
+				A5EB3BE31E873B3C00CF868E /* Sources */,
+				A5EB3BE41E873B3C00CF868E /* Frameworks */,
+				A5EB3BE51E873B3C00CF868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EB3BE91E873B3C00CF868E /* PBXTargetDependency */,
+			);
+			name = LastStandVRControllerTests;
+			productName = LastStandVRControllerTests;
+			productReference = A5EB3BE71E873B3C00CF868E /* LastStandVRControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5EB3BF11E873B3C00CF868E /* LastStandVRControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EB3C011E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRControllerUITests" */;
+			buildPhases = (
+				A5EB3BEE1E873B3C00CF868E /* Sources */,
+				A5EB3BEF1E873B3C00CF868E /* Frameworks */,
+				A5EB3BF01E873B3C00CF868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EB3BF41E873B3C00CF868E /* PBXTargetDependency */,
+			);
+			name = LastStandVRControllerUITests;
+			productName = LastStandVRControllerUITests;
+			productReference = A5EB3BF21E873B3C00CF868E /* LastStandVRControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5EB3BCB1E873B3C00CF868E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rohin Tangirala";
+				TargetAttributes = {
+					A5EB3BD21E873B3C00CF868E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82T6BNCGD9;
+						ProvisioningStyle = Automatic;
+					};
+					A5EB3BE61E873B3C00CF868E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82T6BNCGD9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5EB3BD21E873B3C00CF868E;
+					};
+					A5EB3BF11E873B3C00CF868E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82T6BNCGD9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5EB3BD21E873B3C00CF868E;
+					};
+				};
+			};
+			buildConfigurationList = A5EB3BCE1E873B3C00CF868E /* Build configuration list for PBXProject "LastStandVRController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5EB3BCA1E873B3C00CF868E;
+			productRefGroup = A5EB3BD41E873B3C00CF868E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EB3BD21E873B3C00CF868E /* LastStandVRController */,
+				A5EB3BE61E873B3C00CF868E /* LastStandVRControllerTests */,
+				A5EB3BF11E873B3C00CF868E /* LastStandVRControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5EB3BD11E873B3C00CF868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB3BE11E873B3C00CF868E /* LaunchScreen.storyboard in Resources */,
+				A5EB3BDE1E873B3C00CF868E /* Assets.xcassets in Resources */,
+				A5EB3BDC1E873B3C00CF868E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB3BE51E873B3C00CF868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB3BF01E873B3C00CF868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EB3BCF1E873B3C00CF868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */,
+				A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB3BE31E873B3C00CF868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB3BEC1E873B3C00CF868E /* LastStandVRControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB3BEE1E873B3C00CF868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB3BF71E873B3C00CF868E /* LastStandVRControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5EB3BE91E873B3C00CF868E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5EB3BD21E873B3C00CF868E /* LastStandVRController */;
+			targetProxy = A5EB3BE81E873B3C00CF868E /* PBXContainerItemProxy */;
+		};
+		A5EB3BF41E873B3C00CF868E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5EB3BD21E873B3C00CF868E /* LastStandVRController */;
+			targetProxy = A5EB3BF31E873B3C00CF868E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5EB3BDA1E873B3C00CF868E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EB3BDB1E873B3C00CF868E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EB3BE01E873B3C00CF868E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5EB3BF91E873B3C00CF868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5EB3BFA1E873B3C00CF868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5EB3BFC1E873B3C00CF868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82T6BNCGD9;
+				INFOPLIST_FILE = LastStandVRController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LastStandVRController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5EB3BFD1E873B3C00CF868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82T6BNCGD9;
+				INFOPLIST_FILE = LastStandVRController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LastStandVRController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5EB3BFF1E873B3C00CF868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82T6BNCGD9;
+				INFOPLIST_FILE = LastStandVRControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LastStandVRControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LastStandVRController.app/LastStandVRController";
+			};
+			name = Debug;
+		};
+		A5EB3C001E873B3C00CF868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82T6BNCGD9;
+				INFOPLIST_FILE = LastStandVRControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LastStandVRControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LastStandVRController.app/LastStandVRController";
+			};
+			name = Release;
+		};
+		A5EB3C021E873B3C00CF868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82T6BNCGD9;
+				INFOPLIST_FILE = LastStandVRControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LastStandVRControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LastStandVRController;
+			};
+			name = Debug;
+		};
+		A5EB3C031E873B3C00CF868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82T6BNCGD9;
+				INFOPLIST_FILE = LastStandVRControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LastStandVRControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LastStandVRController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EB3BCE1E873B3C00CF868E /* Build configuration list for PBXProject "LastStandVRController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB3BF91E873B3C00CF868E /* Debug */,
+				A5EB3BFA1E873B3C00CF868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EB3BFB1E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB3BFC1E873B3C00CF868E /* Debug */,
+				A5EB3BFD1E873B3C00CF868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5EB3BFE1E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB3BFF1E873B3C00CF868E /* Debug */,
+				A5EB3C001E873B3C00CF868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5EB3C011E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB3C021E873B3C00CF868E /* Debug */,
+				A5EB3C031E873B3C00CF868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5EB3BCB1E873B3C00CF868E /* Project object */;
+}
