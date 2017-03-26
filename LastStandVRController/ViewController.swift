@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func fireButton(_ sender: Any) {
         print("FIRE")
+        ControllerManager.sharedInstance.sendFire()
     }
 
     override func viewDidLoad() {

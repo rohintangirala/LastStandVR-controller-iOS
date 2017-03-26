@@ -15,8 +15,8 @@ class ControllerManager {
     var ct = 0
     init() {
         connect()
-        redisServer.Command(Command: "LPUSH list 0")
-    
+        redisServer.Command(Command: "LPUSH appPlatform \"iOS\"")
+        
         
     }
     
@@ -32,19 +32,16 @@ class ControllerManager {
     }
     
     func sendAngle() {
-        /*ct = ct + 1
-        //print("sendAngle()")
-        let angle = phoneAngle
-        //print(angle)
-        var angleToPass = Double(round(1000*(angle-Double.pi/2))/1000)
-        if (angle > Double.pi/2+0.5) {
-            //angleToPass =
-            //redisServer.Command(Command: "LSET list 0 \(angleToPass)")
-        } else if (angle < Double.pi/2-0.5) {
-            //angleToPass = Double(round(1000*(angle-Double.pi/2))/1000)
-            //redisServer.Command(Command: "LSET list 0 \(angleToPass)")
-        }*/
+       
+        redisServer.Command(Command: "LSET xRot 0 \(phoneX)")
+        redisServer.Command(Command: "LSET yRot 0 \(phoneY)")
+        redisServer.Command(Command: "LSET zRot 0 \(phoneZ)")
         
+        
+    }
+    
+    func sendFire() {
+        redisServer.Command(Command: "LSET fire 0 1")
     }
     
 }
