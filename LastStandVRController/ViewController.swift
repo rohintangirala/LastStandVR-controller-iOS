@@ -23,6 +23,12 @@ class ViewController: UIViewController {
     var initialY = 0.0
     var initialZ = 0.0
   
+    @IBAction func calibrate(_ sender: Any) {
+        initialX = phoneX
+        initialY = phoneY
+        initialZ = phoneZ
+        print("in \(initialX) \(phoneX)")
+    }
     
     @IBAction func fireButton(_ sender: Any) {
         print("FIRE")
@@ -42,11 +48,12 @@ class ViewController: UIViewController {
                 
                 print ("\((data?.attitude.yaw)!) \((data?.attitude.roll)!) \((data?.attitude.pitch)!)")
                 //phoneAngle = ((data?.attitude.roll)!)
-                phoneX = -(data?.attitude.yaw)!
+                phoneX = -(data?.attitude.yaw)! - self.initialX
               
-                phoneY = (data?.attitude.roll)!
+              
+                phoneY = (data?.attitude.roll)! - self.initialY
           
-                phoneZ = (data?.attitude.pitch)!
+                phoneZ = (data?.attitude.pitch)! - self.initialZ
               
                 //self.printPhoneAngle()
                 ControllerManager.sharedInstance.sendAngle()
