@@ -14,6 +14,8 @@
 		A5EB3BE11E873B3C00CF868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */; };
 		A5EB3BEC1E873B3C00CF868E /* LastStandVRControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BEB1E873B3C00CF868E /* LastStandVRControllerTests.swift */; };
 		A5EB3BF71E873B3C00CF868E /* LastStandVRControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */; };
+		A5EB3C051E874C3A00CF868E /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3C041E874C3A00CF868E /* Redis.swift */; };
+		B96B193BD31FD0E062201042 /* Pods_LastStandVRController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F4F6510F4AFBAB9E552F89 /* Pods_LastStandVRController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A191E686F1CA04F558065453 /* Pods-LastStandVRController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastStandVRController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController.debug.xcconfig"; sourceTree = "<group>"; };
 		A5EB3BD31E873B3C00CF868E /* LastStandVRController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastStandVRController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EB3BD81E873B3C00CF868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		A5EB3BF21E873B3C00CF868E /* LastStandVRControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastStandVRControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStandVRControllerUITests.swift; sourceTree = "<group>"; };
 		A5EB3BF81E873B3C00CF868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EB3C041E874C3A00CF868E /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Redis.swift; path = ../Controller/Redis.swift; sourceTree = "<group>"; };
+		AC89228C320AF706C499B282 /* Pods-LastStandVRController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastStandVRController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController.release.xcconfig"; sourceTree = "<group>"; };
+		D4F4F6510F4AFBAB9E552F89 /* Pods_LastStandVRController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LastStandVRController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96B193BD31FD0E062201042 /* Pods_LastStandVRController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		487C98DE2976F2952DC9FC88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A191E686F1CA04F558065453 /* Pods-LastStandVRController.debug.xcconfig */,
+				AC89228C320AF706C499B282 /* Pods-LastStandVRController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A5EB3BCA1E873B3C00CF868E = {
 			isa = PBXGroup;
 			children = (
+				A5EB3C041E874C3A00CF868E /* Redis.swift */,
 				A5EB3BD51E873B3C00CF868E /* LastStandVRController */,
 				A5EB3BEA1E873B3C00CF868E /* LastStandVRControllerTests */,
 				A5EB3BF51E873B3C00CF868E /* LastStandVRControllerUITests */,
 				A5EB3BD41E873B3C00CF868E /* Products */,
+				487C98DE2976F2952DC9FC88 /* Pods */,
+				AA4C02CB078D1FB66229AF27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +144,14 @@
 			path = LastStandVRControllerUITests;
 			sourceTree = "<group>";
 		};
+		AA4C02CB078D1FB66229AF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F4F6510F4AFBAB9E552F89 /* Pods_LastStandVRController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5EB3BFB1E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRController" */;
 			buildPhases = (
+				E361173545AF11388275F5E4 /* [CP] Check Pods Manifest.lock */,
 				A5EB3BCF1E873B3C00CF868E /* Sources */,
 				A5EB3BD01E873B3C00CF868E /* Frameworks */,
 				A5EB3BD11E873B3C00CF868E /* Resources */,
+				9EB41D57C419ED9D1A2AC428 /* [CP] Embed Pods Frameworks */,
+				1B2F08B6079A256DDF10CC73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +287,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B2F08B6079A256DDF10CC73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB41D57C419ED9D1A2AC428 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E361173545AF11388275F5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5EB3BCF1E873B3C00CF868E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EB3C051E874C3A00CF868E /* Redis.swift in Sources */,
 				A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */,
 				A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */,
 			);
@@ -413,6 +492,7 @@
 		};
 		A5EB3BFC1E873B3C00CF868E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A191E686F1CA04F558065453 /* Pods-LastStandVRController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82T6BNCGD9;
@@ -426,6 +506,7 @@
 		};
 		A5EB3BFD1E873B3C00CF868E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC89228C320AF706C499B282 /* Pods-LastStandVRController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 82T6BNCGD9;

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B83C12345431946151BE3544C23AE6C61879D71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B83C12345431946151BE3544C23AE6C61879D71" : 9223372036854775807,
+    "B187B99D57BAD54B4C59407D3EC47A1B2A44F699" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A72AC2D-6400-48B5-9B91-107C82D244AB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B83C12345431946151BE3544C23AE6C61879D71" : "LastStandVRController\/",
+    "B187B99D57BAD54B4C59407D3EC47A1B2A44F699" : "Controller\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LastStandVRController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LastStandVRController.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rohintangirala\/LastStandVRController-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B83C12345431946151BE3544C23AE6C61879D71"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rohintangirala\/Controller.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B187B99D57BAD54B4C59407D3EC47A1B2A44F699"
+    }
+  ]
+}

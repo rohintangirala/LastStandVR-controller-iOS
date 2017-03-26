@@ -11,19 +11,33 @@ import CoreMotion
 
 class ViewController: UIViewController {
     
+    let redisServer = Redis()
+    let ip = "10.10.180.94"
+    let port = 6379
     var motionManager: CMMotionManager!
+    var previousX = 0;
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         motionManager = CMMotionManager()
-        motionManager.startAccelerometerUpdates()
+        //motionManager.startDeviceMotionUpdates()
+        if motionManager.isDeviceMotionAvailable == true {
+            motionManager.startDeviceMotionUpdates(to: OperationQueue.current!, withHandler:{
+                data, error in
+                
+                print ((data?.attitude.roll)!)
+            })
+        }
     }
 
-    if motionManager.
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        
     }
 
 
