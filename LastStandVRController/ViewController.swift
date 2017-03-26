@@ -9,28 +9,43 @@
 import UIKit
 import CoreMotion
 
+var phoneX = 0.0;
+var phoneY = 0.0;
+var phoneZ = 0.0;
+
 class ViewController: UIViewController {
     
-    let redisServer = Redis()
-    let ip = "10.10.180.94"
-    let port = 6379
+    
     var motionManager: CMMotionManager!
     var previousX = 0;
     
+    
+    @IBAction func fireButton(_ sender: Any) {
+        print("FIRE")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         motionManager = CMMotionManager()
         //motionManager.startDeviceMotionUpdates()
+        motionManager.deviceMotionUpdateInterval = TimeInterval(exactly: 0.25)!
         if motionManager.isDeviceMotionAvailable == true {
             motionManager.startDeviceMotionUpdates(to: OperationQueue.current!, withHandler:{
                 data, error in
                 
-                print ((data?.attitude.roll)!)
+                print ("\((data?.attitude.pitch)!) \((data?.attitude.roll)!) \((data?.attitude.yaw)!)")
+                //phoneAngle = ((data?.attitude.roll)!)
+                phoneX = (data?.attitude.pitch)!
+                phoneY = (data?.attitude.roll)!
+                phoneZ = (data?.attitude.yaw)!
+                //self.printPhoneAngle()
+                ControllerManager.sharedInstance.sendAngle()
             })
         }
+        
     }
+   
 
     
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A58B7B221E875F4A0069FDD0 /* ControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */; };
 		A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */; };
 		A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BD81E873B3C00CF868E /* ViewController.swift */; };
 		A5EB3BDC1E873B3C00CF868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDA1E873B3C00CF868E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		A191E686F1CA04F558065453 /* Pods-LastStandVRController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastStandVRController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController.debug.xcconfig"; sourceTree = "<group>"; };
+		A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerManager.swift; sourceTree = "<group>"; };
 		A5EB3BD31E873B3C00CF868E /* LastStandVRController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastStandVRController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EB3BD81E873B3C00CF868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				A5EB3BDD1E873B3C00CF868E /* Assets.xcassets */,
 				A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */,
 				A5EB3BE21E873B3C00CF868E /* Info.plist */,
+				A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */,
 			);
 			path = LastStandVRController;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5EB3C051E874C3A00CF868E /* Redis.swift in Sources */,
+				A58B7B221E875F4A0069FDD0 /* ControllerManager.swift in Sources */,
 				A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */,
 				A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */,
 			);
@@ -595,6 +599,7 @@
 				A5EB3BFD1E873B3C00CF868E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5EB3BFE1E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +608,7 @@
 				A5EB3C001E873B3C00CF868E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5EB3C011E873B3C00CF868E /* Build configuration list for PBXNativeTarget "LastStandVRControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +617,7 @@
 				A5EB3C031E873B3C00CF868E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
