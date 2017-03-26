@@ -34,20 +34,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         motionManager = CMMotionManager()
         //motionManager.startDeviceMotionUpdates()
-        motionManager.deviceMotionUpdateInterval = TimeInterval(exactly: 0.5)!
+        motionManager.deviceMotionUpdateInterval = TimeInterval(exactly: 0.25)!
         if motionManager.isDeviceMotionAvailable == true {
             motionManager.startDeviceMotionUpdates(to: OperationQueue.current!, withHandler:{
                 data, error in
                 
                 
-                print ("\((data?.attitude.pitch)!) \((data?.attitude.roll)!) \((data?.attitude.yaw)!)")
+                print ("\((data?.attitude.yaw)!) \((data?.attitude.roll)!) \((data?.attitude.pitch)!)")
                 //phoneAngle = ((data?.attitude.roll)!)
-                phoneX = (data?.attitude.pitch)! - self.initialX
-                phoneX = round(phoneX*100)/100
-                phoneY = (data?.attitude.roll)! - self.initialY
-                phoneY = round(phoneY*100)/100
-                phoneZ = (data?.attitude.yaw)!
-                phoneZ = -round(phoneZ*100)/100 - self.initialZ
+                phoneX = -(data?.attitude.yaw)!
+              
+                phoneY = (data?.attitude.roll)!
+          
+                phoneZ = (data?.attitude.pitch)!
+              
                 //self.printPhoneAngle()
                 ControllerManager.sharedInstance.sendAngle()
             })

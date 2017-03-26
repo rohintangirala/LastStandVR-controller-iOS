@@ -33,15 +33,15 @@ class ControllerManager {
     
     func sendAngle() {
        
-        redisServer.Command(Command: "SET xRot 0 \(phoneX)")
+        redisServer.Command(Command: "SET xRot \(phoneX)")
         
-        redisServer.Command(Command: "SET zRot 0 \(phoneZ)")
+        redisServer.Command(Command: "SET zRot \(phoneZ)")
         
         
     }
     
     func sendFire() {
-        redisServer.Command(Command: "SET fire 0 1")
+        redisServer.Command(Command: "SET fire 1")
     }
     
 }
