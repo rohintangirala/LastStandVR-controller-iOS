@@ -9,39 +9,35 @@
 import Foundation
 
 class ControllerManager {
-    let redisServer = Redis()
-    let ip = "10.10.180.94"
-    let port = 6379
-    var ct = 0
+    let redisServer : Redis = Redis()
+    let ip : String = "10.10.180.94"
+    let port : Int = 6379
+
+    var ct : Int = 0
+
+    class var sharedInstance: ControllerManager {
+        struct Static {
+            static let instance = ControllerManager()
+        }
+        
+        return Static.instance
+    }
+
     init() {
         connect()
         redisServer.Command(Command: "SET appPlatform \"iOS\"")
-        
-        
     }
     
     private func connect() {
         redisServer.server(endPoint: ip, onPort: UInt16(port))
     }
     
-    class var sharedInstance: ControllerManager {
-        struct Static {
-            static let instance = ControllerManager()
-        }
-        return Static.instance
-    }
-    
     func sendAngle() {
-       
         redisServer.Command(Command: "SET xRot \(phoneX)")
-        
         redisServer.Command(Command: "SET zRot \(phoneZ)")
-        
-        
     }
     
     func sendFire() {
         redisServer.Command(Command: "SET fire 1")
     }
-    
 }

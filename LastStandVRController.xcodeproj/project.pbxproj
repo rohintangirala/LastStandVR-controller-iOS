@@ -52,7 +52,7 @@
 		A5EB3BF21E873B3C00CF868E /* LastStandVRControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastStandVRControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStandVRControllerUITests.swift; sourceTree = "<group>"; };
 		A5EB3BF81E873B3C00CF868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5EB3C041E874C3A00CF868E /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Redis.swift; path = ../Controller/Redis.swift; sourceTree = "<group>"; };
+		A5EB3C041E874C3A00CF868E /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Redis.swift; path = ../../Controller/Redis.swift; sourceTree = "<group>"; };
 		AC89228C320AF706C499B282 /* Pods-LastStandVRController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastStandVRController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController.release.xcconfig"; sourceTree = "<group>"; };
 		D4F4F6510F4AFBAB9E552F89 /* Pods_LastStandVRController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LastStandVRController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,7 +95,6 @@
 		A5EB3BCA1E873B3C00CF868E = {
 			isa = PBXGroup;
 			children = (
-				A5EB3C041E874C3A00CF868E /* Redis.swift */,
 				A5EB3BD51E873B3C00CF868E /* LastStandVRController */,
 				A5EB3BEA1E873B3C00CF868E /* LastStandVRControllerTests */,
 				A5EB3BF51E873B3C00CF868E /* LastStandVRControllerUITests */,
@@ -120,11 +119,12 @@
 			children = (
 				A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */,
 				A5EB3BD81E873B3C00CF868E /* ViewController.swift */,
+				A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */,
+				A5EB3C041E874C3A00CF868E /* Redis.swift */,
 				A5EB3BDA1E873B3C00CF868E /* Main.storyboard */,
 				A5EB3BDD1E873B3C00CF868E /* Assets.xcassets */,
 				A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */,
 				A5EB3BE21E873B3C00CF868E /* Info.plist */,
-				A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */,
 			);
 			path = LastStandVRController;
 			sourceTree = "<group>";
