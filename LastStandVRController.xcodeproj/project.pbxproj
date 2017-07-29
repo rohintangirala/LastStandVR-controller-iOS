@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A58B7B221E875F4A0069FDD0 /* ControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */; };
+		A5CEBEA71F2CF92B00F9343F /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEBEA61F2CF92B00F9343F /* Redis.swift */; };
 		A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */; };
 		A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BD81E873B3C00CF868E /* ViewController.swift */; };
 		A5EB3BDC1E873B3C00CF868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDA1E873B3C00CF868E /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		A5EB3BE11E873B3C00CF868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */; };
 		A5EB3BEC1E873B3C00CF868E /* LastStandVRControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BEB1E873B3C00CF868E /* LastStandVRControllerTests.swift */; };
 		A5EB3BF71E873B3C00CF868E /* LastStandVRControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */; };
-		A5EB3C051E874C3A00CF868E /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB3C041E874C3A00CF868E /* Redis.swift */; };
 		B96B193BD31FD0E062201042 /* Pods_LastStandVRController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F4F6510F4AFBAB9E552F89 /* Pods_LastStandVRController.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		A191E686F1CA04F558065453 /* Pods-LastStandVRController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastStandVRController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController.debug.xcconfig"; sourceTree = "<group>"; };
 		A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerManager.swift; sourceTree = "<group>"; };
+		A5CEBEA61F2CF92B00F9343F /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Redis.swift; path = ../../Controller/Controller/Redis.swift; sourceTree = "<group>"; };
 		A5EB3BD31E873B3C00CF868E /* LastStandVRController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastStandVRController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5EB3BD81E873B3C00CF868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		A5EB3BF21E873B3C00CF868E /* LastStandVRControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastStandVRControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EB3BF61E873B3C00CF868E /* LastStandVRControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStandVRControllerUITests.swift; sourceTree = "<group>"; };
 		A5EB3BF81E873B3C00CF868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5EB3C041E874C3A00CF868E /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Redis.swift; path = ../../Controller/Redis.swift; sourceTree = "<group>"; };
 		AC89228C320AF706C499B282 /* Pods-LastStandVRController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LastStandVRController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LastStandVRController/Pods-LastStandVRController.release.xcconfig"; sourceTree = "<group>"; };
 		D4F4F6510F4AFBAB9E552F89 /* Pods_LastStandVRController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LastStandVRController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,7 +120,7 @@
 				A5EB3BD61E873B3C00CF868E /* AppDelegate.swift */,
 				A5EB3BD81E873B3C00CF868E /* ViewController.swift */,
 				A58B7B211E875F4A0069FDD0 /* ControllerManager.swift */,
-				A5EB3C041E874C3A00CF868E /* Redis.swift */,
+				A5CEBEA61F2CF92B00F9343F /* Redis.swift */,
 				A5EB3BDA1E873B3C00CF868E /* Main.storyboard */,
 				A5EB3BDD1E873B3C00CF868E /* Assets.xcassets */,
 				A5EB3BDF1E873B3C00CF868E /* LaunchScreen.storyboard */,
@@ -343,8 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5EB3C051E874C3A00CF868E /* Redis.swift in Sources */,
 				A58B7B221E875F4A0069FDD0 /* ControllerManager.swift in Sources */,
+				A5CEBEA71F2CF92B00F9343F /* Redis.swift in Sources */,
 				A5EB3BD91E873B3C00CF868E /* ViewController.swift in Sources */,
 				A5EB3BD71E873B3C00CF868E /* AppDelegate.swift in Sources */,
 			);
